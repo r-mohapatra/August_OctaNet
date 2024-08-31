@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu' , sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.section1 h1{
+    color: rgb(185, 85, 9);
+}
+
+.logo{
+    font-size: x-large;
+}
+
+.dumbellimg{
+    width: 200px;
+}
+
+.topright .gymimg{
+    width: 250px;
+}
+
+.section2{
+    padding: 100px;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.box{
+    padding: 8px 8px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(171, 63, 23);
+    border-radius: 8px;
+    text-align: center;
+}
+.highlighted{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px 0;
+    margin-top: 75px 0;
+    border-collapse: collapse;
+
+}
+
+.section3 h1{
+    font-size: 2rem;
+}
+
+.section3{
+    padding: 100px;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid rgb(110, 49, 3);
+    padding: 15px 0;
+
+}
+
+.section3 table td{
+    
+    border-bottom: 2px solid rgb(110, 49, 3);
+
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
